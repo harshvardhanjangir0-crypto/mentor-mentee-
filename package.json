@@ -1,0 +1,16 @@
+{
+  "name": "mentor-mentee-tracker",
+  "version": "1.0.0",
+  "description": "Full Stack Mentor Mentee Tracking System built with MERN stack & OTP authentication",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
